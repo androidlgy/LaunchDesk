@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode
+build/
+build_appstore/
+build_release/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# 临时
+*.swp
+*.bak
+*~
+
+# 发布产物：不提交到仓库，仅作为 GitHub Release Assets 上传
+dist/*.dmg
+dist/*.zip
+dist/*.app/
