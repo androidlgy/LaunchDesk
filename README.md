@@ -20,8 +20,10 @@
 
 | 文件 | 大小 | 说明 |
 | --- | --- | --- |
-| [LaunchDesk-1.0.0.dmg](./dist/LaunchDesk-1.0.0.dmg) | 1.6 MB | 推荐，双击挂载后拖入 Applications |
-| [LaunchDesk-1.0.0.zip](./dist/LaunchDesk-1.0.0.zip) | 1.3 MB | 解压即用 |
+| [LaunchDesk-1.0.0.dmg](https://github.com/androidlgy/LaunchDesk/releases/download/v1.0.0/LaunchDesk-1.0.0.dmg) | 1.6 MB | 推荐，双击挂载后拖入 Applications |
+| [LaunchDesk-1.0.0.zip](https://github.com/androidlgy/LaunchDesk/releases/download/v1.0.0/LaunchDesk-1.0.0.zip) | 1.3 MB | 解压即用 |
+
+> 全部版本见 [Releases](https://github.com/androidlgy/LaunchDesk/releases)
 
 ## 🚀 安装
 
@@ -108,8 +110,8 @@ sudo xattr -rd com.apple.quarantine /Applications/LaunchDesk.app
 ## 🛠️ 自己编译
 
 ```bash
-git clone <this-repo>
-cd desk
+git clone https://github.com/androidlgy/LaunchDesk.git
+cd LaunchDesk
 open LaunchDesk.xcodeproj
 # 在 Xcode 里 ⌘R 即可
 ```
@@ -122,4 +124,4 @@ MIT License — 免费使用、修改、再分发。
 
 ## 🐛 反馈
 
-有问题/建议欢迎提 Issue 或邮件联系。
+有问题/建议欢迎到 [Issues](https://github.com/androidlgy/LaunchDesk/issues) 提交。
